@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notatki</title>
+    <link rel="stylesheet" href="css/page/style.css">
+    <link rel="shortcut icon" href="media/notes.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div></div>
+            <div class="logo">
+                <img src="media/notes.png">
+                <span>Notatki</span>
+            </div>
+            <div class="notesNumber">
+                <span>Liczba notatek:</span>
+                <span id="number">0</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="form">
+                <input type="text" name="note" id="note" placeholder="Napisz notatkę...">
+                <span>Piszesz notatkę..</span>
+            </div>
+            <div class="notes"></div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
